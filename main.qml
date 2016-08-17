@@ -5,12 +5,13 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: qsTr("Hello World")
+    title: qsTr("Hello new world")
 
-    MainForm {
+
+
+    Rectangle
+    {
+        color: "red"
         anchors.fill: parent
-        mouseArea.onClicked: {
-            Qt.quit();
-        }
     }
 }
